@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: Fredoka;
+    background-color: beige;
+}
+
+h5 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+
+ p, ul {
+    width: 600px;
+    margin: auto;
+    font-size: 12px;
+    padding-bottom: 30px;
+}
+
+
+/*************************SECAO PRIMEIRA*******************/
+
+.topo {
+    width: auto;
+    height: 60px;
+    margin-left:  370px;
+}
+
+.topo h5 {
+    padding-top: 20px;
+}
+
+.header{
+    width: auto;
+    height: 375px;
+
+    background: url(img/capa.jpg) no-repeat top;
+    background-size: cover;  
+}
+
+.header-text h3, h4{
+    text-align: center;
+    margin: 0;
+    padding: 40px 0 0px 500px;
+   
+}
+
+.header-text h4 {
+        padding: 0px 0 0px 500px;
+   
+}
+
+/*************************SECAO SEGUNDA*******************/
+
+.contaider-1, h5, .container-img {
+    width: 600px;
+    height: auto;
+    margin: auto;
+    
+}
+
+.container-img img {
+    width: 195px;
+    margin-bottom: 50px;
+}
+
+
+/*************************SECAO TERCEIRA*******************/
+
+.container-2, .container-3 {
+    width: auto;
+    height: 80px;
+    padding-top: 40px;
+    color: black; 
+    text-align: center;
+    
+    background: url(img/fundo.jpg) fixed;
+    background-size: cover;
+    
+}
+
+.container-2 h2, .container-3 h2 {
+    width: 180px;
+    margin: auto;
+    border-radius: 20px ;
+    background-color: white;
+
+}
