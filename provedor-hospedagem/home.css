@@ -1,0 +1,327 @@
+/*font-family: 'Poppins', sans-serif;*/
+
+/*#fff
+#f1f3f7
+#f6f6f6
+#a89f9f
+#233032
+#2f86d6*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/**************************************************
+ *                     TOPO                       *
+***************************************************/
+.topo {
+    width: 100%;
+    height: 130px;
+    top:0;
+    left: 0;
+    background-color: #fff; 
+    position: relative;
+}
+
+.container-logo  {    
+    position: absolute;
+    left: 250px;
+    display: flex;
+    padding: 35px 0;
+}
+
+#logo {
+    width: 65px;
+    height: 65px;
+}
+
+.text-logo {
+    margin: 0 12px;
+    
+}
+
+.text-logo h1 {
+    font-size: 26px;
+}
+
+.text-logo p {
+    font-size: 13px;
+    font-weight: bold;
+    color: #2f86d6 ;
+}
+
+.container-logo ul {
+    position: absolute;
+    top: 50px;
+    left: 450px;
+    display: flex;
+
+}
+
+.container-logo li a {
+    padding: 10px;
+    color: #233032;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/**************************************************
+ *                    BANNER                      *
+***************************************************/
+.banner {
+    width: 100%;
+    height: 450px;
+    position: relative;
+    background-color: #2f86d6;
+    color: #fff; 
+    padding: 180px 0;
+}
+
+.container-banner  { 
+    width: 50%;   
+    display: flex;
+}
+
+.text-banner {
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: 120px;
+    left: 250px;    
+}
+
+.text-banner p {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    
+}
+
+.text-banner h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.container-banner img {  
+    width: 30%;  
+    position: absolute;
+    bottom: 70px;
+    left: 700px;
+}
+
+/**************************************************
+ *                      ANUNCIO                    *
+***************************************************/
+.primeiro-anuncio, .segundo-anuncio {
+    width: 100%;
+    height: 110px;
+    padding: 40px 0;
+    position: relative;
+    display: flex;
+}
+
+.primeiro-anuncio {
+    background-color: #233032;
+}
+
+.segundo-anuncio {
+    background-color: #2f86d6;
+}
+
+.container-text-anuncio{
+    position: absolute;
+    top: 25px;
+    left: 250px;
+    width: 500px;
+    height: auto;
+    color: #fff;
+}
+
+.container-text-anuncio h2{
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+.container-text-anuncio p {
+    font-size: 14px;
+}
+
+.btn-precos {
+    position: absolute;
+    left: 900px;    
+    bottom: 29px;
+    width: 180px;
+
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 3px;
+    padding: 14px 10px;
+}
+
+.primeiro-anuncio .btn-precos {
+    background-color: #2f86d6;
+}
+
+.segundo-anuncio .btn-precos {
+    background-color: #233032;
+}
+
+/**************************************************
+ *                   INFORMACOES                   *
+***************************************************/
+.secao-informacoes {
+    width: 100%;
+    height: 550px;
+    padding: 100px 0;
+    position: relative;
+    
+}
+
+.secao-informacoes h2 {
+    width: 700px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 80px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.secao-informacoes span, .secao-precos span {
+    color: #2f86d6;
+}
+
+.container-informacoe {
+    width: 70%;
+    display: flex;
+    margin: auto;
+    text-align: center;
+
+}
+
+.informacoe {
+    width: calc(100vw /30%);
+    
+}
+
+.informacoe img {
+    width: 75px;   
+}
+
+.informacoe h3 {
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.informacoe p {
+    font-size: 14px;
+}
+
+/**************************************************
+ *                       PLANOS                   *
+***************************************************/
+.secao-precos {
+    width: 100%;
+    height: 800px;
+    margin: auto;
+    padding: 100px 0;
+    background-color: #f1f3f7;
+    position: relative;
+ }
+
+.secao-precos h2 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 80px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.text-tabela  {
+    width: 60%;
+    height: auto;
+    margin: auto;    
+
+    text-align: center;
+    line-height: 15px;
+    box-shadow: 0 0 50px #2f86d6;
+    border-radius: 2px;
+
+}
+
+
+.text-tabela th {
+    width: auto;
+    padding: 25px 30px;
+    font-size: 16px;
+    font-weight: 600px;
+    background-color: #fff;
+
+}
+
+.text-tabela th img {
+    width: 80px;
+    margin: 20px;
+    
+}
+
+
+.text-tabela th span {   
+    color: #a89f9f;
+    font-size: 10px;
+}
+
+.text-tabela  td {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 15px 0;
+    border-right: 1px solid #dcdee0;
+    border-top: 1px solid #dcdee0;;   
+}
+
+.text-tabela .td-color {
+    background-color: #fFF;
+}
+
+/**************************************************
+ *                     RODAPE                     *
+***************************************************/
+
+.rodape {
+    width: 100%;
+    height: auto;
+
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 30px;
+    position: relative;
+    top: 150px;
+}
+
+.rodape .container-logo {
+    position: absolute;
+    bottom: 120px;
+    left: 550px;
+}
+
+.rodape p {
+    text-align: center;
+}
+
+.rodape-item {
+    width: 100%;
+    height: auto;
+    margin-top: 200px;
+    padding: 20px;
+    background-color: #f1f3f7;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}

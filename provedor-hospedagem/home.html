@@ -9,20 +9,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
     <!--css-->
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="home.css">
     <title>AlfaTech</title>
 </head>
 <body>
     <!--topo-->
     <div class="topo">
         <div class="container-logo">
-            <img src="logo" id="logo" alt="logo">
+            <img src="./assets/logo-icone.png" id="logo" alt="logo">
             <div class="text-logo">
                 <h1>AlfaTech</h1>
                 <p>Soluções em hospedagem</p>
             </div>
-        </div>
-        <div class="menu-item">
             <ul type="none">
                <li><a href="home.html#informacoes">INFORMAÇÕES</a></li>
                <li><a href="home.html#planos">PLANOS</a></li>
@@ -34,72 +32,82 @@
 
     <!--banner-->
     <div class="banner">
-        <p>Simples - Fácil de usar - 10x mais rápido</p>
-        <h2> melhor serviço de hospedagem na web para o seu site.</h2>
-        <p>btenha a melhor velocidade para o seu site. Não perca mais clientes por causa de lentidão na sua hospedagem.</p>
+        <div class="container-banner">
+            <div class="text-banner">
+                <p>Simples - Fácil de usar - 10x mais rápido!</p>
+                <h2>O melhor serviço de hospedagem na web para o seu site.</h2>
+                <p>Obtenha a melhor velocidade para o seu site. Não perca mais clientes por causa de lentidão na sua hospedagem.</p>
+            </div>
+        <img src="./assets/imagem-banner.png" alt="banner">
+        </div>
     </div>
+
     <!--primeiro-anuncio-->
     <div class="primeiro-anuncio">
-        <h2>Hospede o seu site por apenas R$29 por mês.</h2>
-        <p>Também temos planos gratuitos. Adquira já o seu.</p>
-        <a href="precos.html">TABELA DE PREÇOS</a>
+        <div class="container-text-anuncio">
+            <h2>Hospede o seu site por apenas R$29 por mês.</h2>
+            <p>Também temos planos gratuitos. Adquira já o seu.</p>
+        </div>
+        <a class="btn-precos" href="precos.html">TABELA DE PREÇOS</a>
     </div>
+
     <!--informacoes-->
     <div class="secao-informacoes" id="informacoes">
-        <h2>Existem diversos serviços de hospedagem de sites. Porque você deve nos escolher?</h2>
-        <div class="informacoe">
-            <img src="" alt="">
-            <h3>Fácil de configurar</h3>
-            <p>Facilmente configurável em plataformas CMS populares - Wordpress, Joomia ...</p>
-        </div>
-        <div class="informacoe">
-            <img src="" alt="">
-            <h3>Servidores 100% Online</h3>
-            <p>Serviços que operam 100% do tempo para manter o seu site online...</p>
-        </div>
-        <div class="informacoe">
-            <img src="" alt="">
-            <h3>Suporte 24/7</h3>
-            <p>Suporte altamente treinado e especializado em soluções de Cloud...</p>
+        <h2>Existem diversos serviços de hospedagem de sites. Porque você deve <span>nos escolher?</span></h2>
+        <div class="container-informacoe">
+            <div class="informacoe">
+                <img src="./assets/icone-engrenagens.png" alt="">
+                <h3>Fácil de configurar</h3>
+                <p>Facilmente configurável em plataformas CMS populares - Wordpress, Joomia ...</p>
+            </div>
+            <div class="informacoe">
+                <img src="./assets/cloud-icone.png" alt="">
+                <h3>Servidores 100% Online</h3>
+                <p>Serviços que operam 100% do tempo para manter o seu site online...</p>
+            </div>
+            <div class="informacoe">
+                <img src="./assets/icone-suporte.png" alt="">
+                <h3>Suporte 24/7</h3>
+                <p>Suporte altamente treinado e especializado em soluções de Cloud...</p>
+            </div>
         </div>
     </div>
+
+
     <!--planos-->
     <div class="secao-precos" id="planos">
-        <h2>Pague somente pelo que for usar. Sem cobranças adicionais!</h2>
-        <div class="texto-tabela">
+        <h2>Pague <span>somente</span> pelo que for usar. Sem cobranças adicionais!</h2>
+        <div class="text-tabela">
             <table>
                 <thead>
                     <tr>
-                        <th>PESSOAL</th>
-                        <th>PROFESSIONAL</th>
-                        <th>EMPRESARIAL</th>
-                        <th>BIG-TECHS</th>
+                        <th>PESSOAL
+                            <img src="./assets/pessoal-icone.png" alt="">
+                            <span>Indicado para uso pessoal</span>
+                        </th>
+                        <th>PROFESSIONAL
+                            <img src="./assets/equipe-icone.png" alt="">
+                            <span>Indicado para profissionais de T.I</span></th>
+                        <th>EMPRESARIAL
+                            <img src="./assets/empresa-icone.png" alt="">
+                            <span>Indicado para empresas</span></th>
+                        <th>BIG-TECHS
+                            <img src="./assets/big-tech.png" alt="">
+                            <span>Indicado para grandes empresas</span></th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td><img src="" alt=""></td>
-                        <td><img src="" alt=""></td>
-                        <td><img src="" alt=""></td>
-                        <td><img src="" alt=""></td>
-                    </tr>
-                    <tr>
-                        <td><span>Indicado para uso pessoal</span></td>
-                        <td><span>Indicado para profissionais de T.I</span></td>
-                        <td><span>Indicado para empresas</span></td>
-                        <td><span>Indicado para grandes empresas</span></td>
-                    </tr>
                     <tr>
                         <td>1 usuário</td>
                         <td>10 usuários</td>
                         <td>25 usuários</td>
                         <td>50 usuários</td>
                     </tr>
-                    <tr>
-                        <td>1 domínio grátis</td>
-                        <td>2 domínios grátis</td>
-                        <td>2 domínios grátis</td>
-                        <td>3 domínios grátis</td>
+                    <tr class="td-color">
+                        <td>1 Domínio grátis</td>
+                        <td>2 Domínios grátis</td>
+                        <td>2 Domínios grátis</td>
+                        <td>3 Domínios grátis</td>
                     </tr>
                     <tr>
                         <td>200GB SSD espaço</td>
@@ -107,7 +115,7 @@
                         <td>1TB SSD espaço</td>
                         <td>2TB SSD espaço</td>
                     </tr>
-                    <tr>
+                    <tr class="td-color">
                         <td>Ofertas especiais</td>
                         <td>Ofertas especiais</td>
                         <td>Ofertas especiais</td>
@@ -124,26 +132,31 @@
         </div>
     </div>
     <!--sugundo-anuncio-->
+    
     <div class="segundo-anuncio">
-        <h2>Mais de 20.000 pessoas confiam na Spark! Seja um deles você também!</h2>
-        <a href="precos.html">TABELA DE PREÇOS</a>
+        <div class="container-text-anuncio">
+            <h2>Mais de 20.000 pessoas confiam na AlfaTech! Seja um deles você também!</h2>
+        </div>
+        <a class="btn-precos" href="precos.html">TABELA DE PREÇOS</a>
     </div>
+
     <!--rodape-->
     <div class="rodape" id="contato">
         <div class="container-logo">
-            <img src="logo" id="logo" alt="logo">
+            <img src="./assets/logo-icone.png" id="logo" alt="logo">
             <div class="text-logo">
-                <h1>AlfaTech</h1>
+                <h2>AlfaTech</h2>
                 <p>Soluções em hospedagem</p>
             </div>
         </div>
+        <div class="text-rodape">
            <p>Telefone & Whatsapp: (21) 99999-5555</p>
            <p>E-mail: suporte@alfatech.com</p>
            <p>Endereço: Av Ayrton Senna, 3000 - Barra da Tijuca - Rio de Janeiro</p>
            <p>© AlfaTech - Soluções em hospedagem - Todos os direitos reservados</p>
         </div>
     </div>
-    <div>
+    <div class="rodape-item">
         <p>Desenvolvido por "nome do aluno"</p>
     </div>
 </body>
