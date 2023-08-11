@@ -61,6 +61,7 @@ header a {
 }
 
 .secao-capa div {
+    
     position: relative;
     top: 0;
     left: 0;
@@ -95,6 +96,7 @@ h3 {
 }
 
 .secao-destaque img:first-of-type{
+
     width: 100%;
 }
 
