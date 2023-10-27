@@ -16,8 +16,8 @@ Utilizar Flexbox e media queries.
 ____________________________________________________________________
 O site é responsivo, isso significa que ele se adapta com o tamanho da tela do usuário.
 
-## dispositivos em tela cheia
+## Site em dispositivos tela cheia
 [![Video de ejemplo](./assets/tela-jeia-img.png)](./assets/tela-jeia.mp4)
 
-## Site dispositivos móveis
+## Site em dispositivos móveis
 [![Video de ejemplo](./assets/mobil-img.png)](./assets/mobil.mp4)
