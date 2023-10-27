@@ -16,13 +16,5 @@ Utilizar Flexbox e media queries.
 ____________________________________________________________________
 O site é responsivo, isso significa que ele se adapta com o tamanho da tela do usuário.
 
-<video width="320" height="240" controls>
-  <source src="./assets/tela-jeia.mp4" type="video/mp4">
-  Tu navegador no soporta la reproducción de videos.
-</video>
-<video width="320" height="240" controls>
-  <source src="./assets/mobil.mp4" type="video/mp4">
-  Tu navegador no soporta la reproducción de videos.
-</video>
-![video, tela jeia](./assets/tela-jeia.mp4)
-![video, mobil](./assets/mobil.mp4)
+[![Video de ejemplo](./assets/tela-jeia-img.png)](./assets/tela-jeia.mp4)
+[![Video de ejemplo](./assets/mobil-img.png)](./assets/mobil.mp4)
