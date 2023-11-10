@@ -54,7 +54,7 @@ a {
 .secao_pricipal {
     width: 100%;
     height: 600px;
-    background: url(/assets/img-fundo.jpg) no-repeat;
+    background: url(./assets/img-fundo.jpg) no-repeat;
     background-size: cover;
 
     display: flex;
