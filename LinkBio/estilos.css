@@ -1,0 +1,79 @@
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Ysabeau Infant', sans-serif;*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+/*#fff
+#ffffffcc
+#000000
+#000000cc
+#0200006e
+#ffdf00
+#009c3b
+*/
+
+.secao-banner{
+    width: 100%;
+    height: 100vh;
+    background-color: #009c3b;
+}
+
+.container-info{
+    width: 100%;
+    height: 100%;
+     gap: 20px;
+
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;    
+}
+
+.img-perfil{
+    width: 200px;
+    height: 200px;   
+}
+
+.titulo {
+    font-family: 'Ysabeau Infant', sans-serif;
+    color: #fff;
+   
+}
+
+.container-link { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    gap: 20px;
+}
+
+.container-link a{
+    width: 768px;
+    padding: 10px;
+    font-family: 'Ysabeau Infant', sans-serif;
+    color: #fff;    
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+.container-link a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.secao-estadistica{
+    width: 100%;
+    height: 100vh;
+    background-color: #eff304;   
+}
